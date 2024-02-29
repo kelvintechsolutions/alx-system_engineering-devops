@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# it scripts to display all IPV4 IPS on a machine
+#it is support to print the IP address of the machine.
+#it displays all acive IPv4 addresses.
+ifconfig | grep -Eo "inet (addr:)?([0-9]*\.){3}[0-9]*" | cut -b 11-
