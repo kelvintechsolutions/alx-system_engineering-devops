@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-'''This is a script that gathers employee name 
-completed
+'''it is ascript that gathers employee name completed
 tasks and total number of tasks from an API
 '''
 
